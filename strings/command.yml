@@ -93,6 +93,6 @@ ACTIVEVC_COMMAND : ["activevoice", "activevc"]
 ACTIVEVIDEO_COMMAND : ["activevideo", "activev"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban", "gandban", "gandfaadban", "globalban"]
-UNGBAN_COMMAND : ["ungban", "gandback", "globalunban"]
-GBANNED_COMMAND : ["gbannedusers", "gbanlist", "gbanned"]
+GBAN_COMMAND : ["fumck", "gandban", "gandfaadban", "globalban"]
+UNGBAN_COMMAND : ["unfumck", "gandback", "globalunban"]
+GBANNED_COMMAND : ["fumckedusers", "gbanlist", "gbanned"]
