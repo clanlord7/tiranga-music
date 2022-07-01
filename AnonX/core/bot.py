@@ -10,7 +10,7 @@ from ..logging import LOGGER
 
 class AnonXBot(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Starting Bot...")
+        LOGGER(__name__).info(f"Starting Bot By [ @ClanlordOP ]")
         super().__init__(
             "AnonXMusic",
             api_id=config.API_ID,
@@ -25,7 +25,7 @@ class AnonXBot(Client):
         self.id = get_me.id
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "**» ᴀɴᴏɴ ダᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ...**"
+                config.LOG_GROUP_ID, "**» [🇮🇳]𝐓𝙸𝐑𝙰𝐍𝙶𝐀🇽𝙱𝐎𝚃[🔱]  sᴛᴀʀᴛᴇᴅ...**"
             )
         except:
             LOGGER(__name__).error(
